@@ -70,7 +70,7 @@ const About=()=>{
            I'm an aspiring <span style={{color:"#1f6feb"}}>Full Stack Web Developer</span>. Still in college but I feel confident in my skills to develop CRUD apps. 
           </p>
           <p>
-            <span style={{color:"#FF2D20"}}>Laravel</span> is my go to framework and right now I'm learning <span style={{color:"#61DBFB"}}>React</span>.
+            <span style={{color:"#FF2D20"}}>Laravel</span> is my go to framework but right now I'm learning <span style={{color:"#6DB33F"}}>Spring</span>.
           </p>
         </div>
       </div>
