@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  color : white;
+}
+
+body {
+  background-color: #282c34!important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.text {
+  text-align:center;
+}
+.navbar {
+  text-align:center;
+  padding:0 !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar-bg {
+  background-color:#161B22!important;
+}
+.navbar-collapse {	
+  background-color:#161B22!important;
+}
+
+#collapse2 {
+  .navbar-nav {
+	flex-direction: initial!important;
+  }
+  .nav-link {
+	margin:0 1rem;
+  }
+}
+
+.btn-outline-react {
+  color:white!important;
+  &:hover {
+	color:#1F6FEB!important;
+  }
+}
+
+.collapse .show {
+  padding:0!important;
+}
+
+#about {
+	svg {
+		min-width: 80px;
+		min-height: 80px;
+	}
+	.card {
+	  min-height: 523px;	
+	}
+}
+
+#contact {
+  margin-top: 7rem;
+  .alert-danger {
+    background-color: transparent;
+    border-color: #ff3c38;
+    color: #ff3c38;
+  }
+  .alert-success {
+    background-color: transparent;
+    border-color: #04a777;
+    color: #04a777;
+  }
+}
